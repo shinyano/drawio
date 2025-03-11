@@ -78,7 +78,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mA8EzmX1W03iKXp3YoPy" name="旧数据处理过程">
-    <mxGraphModel dx="649" dy="354" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="783" dy="428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -99,8 +99,8 @@
         <mxCell id="u0TRHwq-SfVegYRTHKIy-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="u0TRHwq-SfVegYRTHKIy-2" target="u0TRHwq-SfVegYRTHKIy-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u0TRHwq-SfVegYRTHKIy-2" value="&lt;font&gt;中间存储&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="190" width="120" height="60" as="geometry" />
+        <mxCell id="u0TRHwq-SfVegYRTHKIy-2" value="&lt;font&gt;中间存储&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(文件/对象存储/消息队列)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(分布式存储)&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="190" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="u0TRHwq-SfVegYRTHKIy-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u0TRHwq-SfVegYRTHKIy-3" target="u0TRHwq-SfVegYRTHKIy-11">
           <mxGeometry relative="1" as="geometry" />
@@ -112,19 +112,28 @@
           <mxGeometry x="600" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u0TRHwq-SfVegYRTHKIy-14" value="DBMS" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="120" y="280" width="610" height="140" as="geometry" />
+          <mxGeometry x="120" y="290" width="610" height="130" as="geometry" />
         </mxCell>
         <mxCell id="u0TRHwq-SfVegYRTHKIy-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u0TRHwq-SfVegYRTHKIy-15" target="u0TRHwq-SfVegYRTHKIy-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u0TRHwq-SfVegYRTHKIy-15" value="查询数据" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="u0TRHwq-SfVegYRTHKIy-15" value="查询数据" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="150" y="335" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="u0TRHwq-SfVegYRTHKIy-16" value="数据格式转换" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="346.25" width="100" height="27.5" as="geometry" />
         </mxCell>
+        <mxCell id="u0TRHwq-SfVegYRTHKIy-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u0TRHwq-SfVegYRTHKIy-17" target="u0TRHwq-SfVegYRTHKIy-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="u0TRHwq-SfVegYRTHKIy-17" value="Python AI" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="430" y="335" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u0TRHwq-SfVegYRTHKIy-19" value="目前缺乏对复杂库的支持" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="400" width="140" as="geometry" />
+        </mxCell>
+        <mxCell id="u0TRHwq-SfVegYRTHKIy-20" value="存储数据" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="340" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
