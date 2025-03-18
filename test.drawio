@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1223" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -142,6 +142,64 @@
         </mxCell>
         <mxCell id="Jm5qmDT-nHHSFRMxxYyR-3" value="格式转换" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="366.25" width="70" height="27.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_Zu0oi_ZkeO9CyKJD9Bs" name="研究内容">
+    <mxGraphModel dx="796" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fMrZhQuJwHZpQ6DRvAVm-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;UDF 基类&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;ol style=&quot;line-height: 160%;&quot;&gt;&lt;li style=&quot;text-align: left;&quot;&gt;与Java进行数据交互&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;UDF信息管理&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;脚本资源限制（文件、网络等）&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="330" y="170" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fMrZhQuJwHZpQ6DRvAVm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="fMrZhQuJwHZpQ6DRvAVm-5" target="fMrZhQuJwHZpQ6DRvAVm-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="300" />
+              <mxPoint x="440" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMrZhQuJwHZpQ6DRvAVm-14" value="继承" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fMrZhQuJwHZpQ6DRvAVm-10">
+          <mxGeometry x="-0.1771" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMrZhQuJwHZpQ6DRvAVm-5" value="&lt;div style=&quot;line-height: 160%;&quot;&gt;&lt;font style=&quot;font-size: 18px; line-height: 160%;&quot;&gt;&lt;b&gt;UDTF 基类&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px; line-height: 160%;&quot;&gt;（行UDF）&lt;/font&gt;&lt;div&gt;数据处理：逐行调用&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="150" y="320" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fMrZhQuJwHZpQ6DRvAVm-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="fMrZhQuJwHZpQ6DRvAVm-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439.8571428571429" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMrZhQuJwHZpQ6DRvAVm-6" value="&lt;div style=&quot;line-height: 140%;&quot;&gt;&lt;font style=&quot;font-size: 18px; line-height: 140%;&quot;&gt;&lt;b&gt;UDAF 基类&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px; line-height: 140%;&quot;&gt;（聚合UDF）&lt;/font&gt;&lt;div&gt;数据处理：多行调用&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="360" y="320" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fMrZhQuJwHZpQ6DRvAVm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="fMrZhQuJwHZpQ6DRvAVm-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="300" />
+              <mxPoint x="440" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMrZhQuJwHZpQ6DRvAVm-7" value="&lt;div style=&quot;line-height: 140%;&quot;&gt;&lt;font style=&quot;font-size: 18px; line-height: 140%;&quot;&gt;&lt;b&gt;UDSF 基类&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px; line-height: 140%;&quot;&gt;（表UDF）&lt;/font&gt;&lt;div&gt;数据处理：多行调用&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="570" y="320" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fMrZhQuJwHZpQ6DRvAVm-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fMrZhQuJwHZpQ6DRvAVm-8" target="fMrZhQuJwHZpQ6DRvAVm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fMrZhQuJwHZpQ6DRvAVm-16" value="继承并实现" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fMrZhQuJwHZpQ6DRvAVm-15">
+          <mxGeometry x="-0.0398" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMrZhQuJwHZpQ6DRvAVm-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;用户UDF&lt;/b&gt;&lt;/font&gt;&lt;div&gt;实现transformer函数&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="160" y="430" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
