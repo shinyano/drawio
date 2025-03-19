@@ -225,7 +225,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="s5PhdPaWgRyOh514teNh" name="第 7 页">
-    <mxGraphModel dx="508" dy="321" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="726" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -268,10 +268,10 @@
         <mxCell id="RZ89Ee0CjFVV5EkB3265-10" value="执行调度线程池" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="360" y="300" width="350" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RZ89Ee0CjFVV5EkB3265-13" value="生命周期管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RZ89Ee0CjFVV5EkB3265-13" value="生命周期管理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="360" y="260" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RZ89Ee0CjFVV5EkB3265-14" value="分布式节点共享" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RZ89Ee0CjFVV5EkB3265-14" value="分布式节点共享" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="540" y="260" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
