@@ -268,6 +268,12 @@
         <mxCell id="RZ89Ee0CjFVV5EkB3265-10" value="执行调度线程池" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="360" y="300" width="350" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="RZ89Ee0CjFVV5EkB3265-13" value="生命周期管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="260" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RZ89Ee0CjFVV5EkB3265-14" value="分布式节点共享" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="260" width="160" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
