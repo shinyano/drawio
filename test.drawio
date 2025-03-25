@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1" pages="15">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1" pages="16">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1223" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -273,6 +273,62 @@
         </mxCell>
         <mxCell id="RZ89Ee0CjFVV5EkB3265-14" value="分布式节点共享" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#0E8088;strokeColor=#0e8088;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="550" y="260" width="160" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="研究内容框架 的副本" id="0BjGT5xUXfxHFl24xCeK">
+    <mxGraphModel dx="643" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="5U93-Gh-OwLFXM7pe4dT-0" />
+        <mxCell id="5U93-Gh-OwLFXM7pe4dT-1" parent="5U93-Gh-OwLFXM7pe4dT-0" />
+        <mxCell id="5U93-Gh-OwLFXM7pe4dT-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.314;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.313;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="5U93-Gh-OwLFXM7pe4dT-1" source="5U93-Gh-OwLFXM7pe4dT-2" target="5U93-Gh-OwLFXM7pe4dT-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="420" as="sourcePoint" />
+            <mxPoint x="570" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5U93-Gh-OwLFXM7pe4dT-4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.655;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.655;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="5U93-Gh-OwLFXM7pe4dT-1" source="5U93-Gh-OwLFXM7pe4dT-7" target="5U93-Gh-OwLFXM7pe4dT-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="469" y="348" as="sourcePoint" />
+            <mxPoint x="470" y="441" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5U93-Gh-OwLFXM7pe4dT-5" value="Java - Python 同进程交互框架" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="5U93-Gh-OwLFXM7pe4dT-1">
+          <mxGeometry x="340" y="590" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5U93-Gh-OwLFXM7pe4dT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="5U93-Gh-OwLFXM7pe4dT-1" source="5U93-Gh-OwLFXM7pe4dT-5" target="5U93-Gh-OwLFXM7pe4dT-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5U93-Gh-OwLFXM7pe4dT-7" value="&lt;font&gt;Python UDF 基类设计&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=17;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="5U93-Gh-OwLFXM7pe4dT-1">
+          <mxGeometry x="340" y="416" width="390" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="5U93-Gh-OwLFXM7pe4dT-8" value="元信息管理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#56517E;strokeColor=#56517e;gradientColor=none;fontColor=light-dark(#ffffff, #ededed);" vertex="1" parent="5U93-Gh-OwLFXM7pe4dT-1">
+          <mxGeometry x="360" y="460" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5U93-Gh-OwLFXM7pe4dT-9" value="数据分析处理框架" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=14;spacingTop=5;fillColor=light-dark(#56517e, #3b394a);strokeColor=#56517e;fontColor=light-dark(#ffffff, #ededed);" vertex="1" parent="5U93-Gh-OwLFXM7pe4dT-1">
+          <mxGeometry x="500" y="460" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5U93-Gh-OwLFXM7pe4dT-10" value="安全管理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#56517E;strokeColor=#56517e;gradientColor=none;fontColor=light-dark(#ffffff, #ededed);" vertex="1" parent="5U93-Gh-OwLFXM7pe4dT-1">
+          <mxGeometry x="360" y="510" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5U93-Gh-OwLFXM7pe4dT-11" value="&lt;div&gt;用户接口设计&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Transform(Dataframe, args ...)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#e7e5f5, #3b394a);strokeColor=#56517e;" vertex="1" parent="5U93-Gh-OwLFXM7pe4dT-1">
+          <mxGeometry x="510" y="502" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xxuTeMR2WuWSwrOgRUWE-0" value="" style="group" vertex="1" connectable="0" parent="5U93-Gh-OwLFXM7pe4dT-1">
+          <mxGeometry x="340" y="660" width="390" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5U93-Gh-OwLFXM7pe4dT-2" value="UDF 管理模块（JVM）" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=17;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="xxuTeMR2WuWSwrOgRUWE-0">
+          <mxGeometry width="390" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5U93-Gh-OwLFXM7pe4dT-12" value="执行调度线程池" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#0e8088, #103c3f);strokeColor=#0e8088;fontColor=light-dark(#ffffff, #ededed);" vertex="1" parent="xxuTeMR2WuWSwrOgRUWE-0">
+          <mxGeometry x="20" y="80" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5U93-Gh-OwLFXM7pe4dT-13" value="生命周期管理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#0E8088;strokeColor=#0e8088;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" vertex="1" parent="xxuTeMR2WuWSwrOgRUWE-0">
+          <mxGeometry x="20" y="40" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5U93-Gh-OwLFXM7pe4dT-14" value="分布式节点共享" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#0E8088;strokeColor=#0e8088;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" vertex="1" parent="xxuTeMR2WuWSwrOgRUWE-0">
+          <mxGeometry x="210" y="40" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
