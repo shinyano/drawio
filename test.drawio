@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1" pages="10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1" pages="13">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1223" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -147,7 +147,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_Zu0oi_ZkeO9CyKJD9Bs" name="UDF基类模式">
-    <mxGraphModel dx="605" dy="382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="932" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -515,6 +515,141 @@
           <mxGeometry x="45" width="45" height="30" as="geometry">
             <mxRectangle width="45" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pozveS-k7rp7FTWBPGzB" name="UDF基类简略版">
+    <mxGraphModel dx="932" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ll4gZVrp-6j7-AQPnd4a-1" value="&lt;div style=&quot;line-height: 140%;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px; line-height: 140%;&quot;&gt;UDF 基类&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;与Java进行数据交互&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;UDF信息管理&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;脚本资源限制（文件、网络等）&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacing=2;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="400" y="490" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ll4gZVrp-6j7-AQPnd4a-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ll4gZVrp-6j7-AQPnd4a-4" target="Ll4gZVrp-6j7-AQPnd4a-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="610" />
+              <mxPoint x="510" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ll4gZVrp-6j7-AQPnd4a-3" value="继承" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ll4gZVrp-6j7-AQPnd4a-2">
+          <mxGeometry x="-0.1771" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ll4gZVrp-6j7-AQPnd4a-4" value="&lt;div style=&quot;line-height: 160%;&quot;&gt;&lt;font style=&quot;font-size: 18px; line-height: 160%;&quot;&gt;&lt;b&gt;UDTF 基类&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px; line-height: 160%;&quot;&gt;（行UDF）&lt;/font&gt;&lt;div&gt;数据处理：逐行调用&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="220" y="630" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ll4gZVrp-6j7-AQPnd4a-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ll4gZVrp-6j7-AQPnd4a-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="509.8571428571429" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ll4gZVrp-6j7-AQPnd4a-6" value="&lt;div style=&quot;line-height: 140%;&quot;&gt;&lt;font style=&quot;font-size: 18px; line-height: 140%;&quot;&gt;&lt;b&gt;UDAF 基类&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px; line-height: 140%;&quot;&gt;（聚合UDF）&lt;/font&gt;&lt;div&gt;数据处理：多行调用&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="430" y="630" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ll4gZVrp-6j7-AQPnd4a-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ll4gZVrp-6j7-AQPnd4a-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="610" />
+              <mxPoint x="510" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ll4gZVrp-6j7-AQPnd4a-8" value="&lt;div style=&quot;line-height: 140%;&quot;&gt;&lt;font style=&quot;font-size: 18px; line-height: 140%;&quot;&gt;&lt;b&gt;UDSF 基类&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px; line-height: 140%;&quot;&gt;（表UDF）&lt;/font&gt;&lt;div&gt;数据处理：多行调用&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="640" y="630" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ll4gZVrp-6j7-AQPnd4a-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ll4gZVrp-6j7-AQPnd4a-11" target="Ll4gZVrp-6j7-AQPnd4a-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ll4gZVrp-6j7-AQPnd4a-10" value="继承并实现" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ll4gZVrp-6j7-AQPnd4a-9">
+          <mxGeometry x="-0.0398" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ll4gZVrp-6j7-AQPnd4a-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;用户UDF&lt;/b&gt;&lt;/font&gt;&lt;div&gt;实现 transform 函数&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="230" y="740" width="140" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="D_-VS4YevEoiAXFYBCRV" name="远程调用">
+    <mxGraphModel dx="621" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uzjt8vx2-XQYzBY0Os0p-1" value="Python UDF 执行" style="html=1;shadow=0;dashed=0;align=left;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;spacingLeft=9;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="180" y="340" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uzjt8vx2-XQYzBY0Os0p-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;监控运行&lt;/font&gt;" style="html=1;shadow=0;dashed=1;align=left;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;spacingLeft=9;" vertex="1" parent="1">
+          <mxGeometry x="180" y="280" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uzjt8vx2-XQYzBY0Os0p-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uzjt8vx2-XQYzBY0Os0p-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="295" />
+              <mxPoint x="390" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uzjt8vx2-XQYzBY0Os0p-8" value="发送线程终止信号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="uzjt8vx2-XQYzBY0Os0p-3">
+          <mxGeometry x="-0.0856" relative="1" as="geometry">
+            <mxPoint x="90" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uzjt8vx2-XQYzBY0Os0p-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.419;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uzjt8vx2-XQYzBY0Os0p-2" target="uzjt8vx2-XQYzBY0Os0p-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="295" as="sourcePoint" />
+            <mxPoint x="431" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uzjt8vx2-XQYzBY0Os0p-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;检测到超时&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uzjt8vx2-XQYzBY0Os0p-6">
+          <mxGeometry x="-0.0467" y="3" relative="1" as="geometry">
+            <mxPoint x="4" y="-32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uzjt8vx2-XQYzBY0Os0p-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="384" y="290" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="uzjt8vx2-XQYzBY0Os0p-9" value="" style="shape=cross;whiteSpace=wrap;html=1;rotation=45;fillColor=#f8cecc;strokeColor=#b85450;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="369" y="335" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uzjt8vx2-XQYzBY0Os0p-10" value="停止运行" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="400" y="340" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Qke6kStwNch2LAPQl-jG" name="自由线程多线程">
+    <mxGraphModel dx="932" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ojfcoRXE5rAcjNfBl0M0-1" value="Python 线程 1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="260" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ojfcoRXE5rAcjNfBl0M0-2" value="Python 线程 2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="330" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ojfcoRXE5rAcjNfBl0M0-3" value="Python 线程 n" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="420" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ojfcoRXE5rAcjNfBl0M0-4" value="..." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="335" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ojfcoRXE5rAcjNfBl0M0-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="530" y="250" width="20" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="ojfcoRXE5rAcjNfBl0M0-6" value="Free-threading Python(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;NO GIL)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="235" y="210" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ojfcoRXE5rAcjNfBl0M0-7" value="真正并行" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="540" y="345" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
