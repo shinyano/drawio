@@ -278,7 +278,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="研究内容框架 的副本" id="0BjGT5xUXfxHFl24xCeK">
-    <mxGraphModel dx="678" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="855" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="5U93-Gh-OwLFXM7pe4dT-0" />
         <mxCell id="5U93-Gh-OwLFXM7pe4dT-1" parent="5U93-Gh-OwLFXM7pe4dT-0" />
@@ -318,10 +318,10 @@
         <mxCell id="xxuTeMR2WuWSwrOgRUWE-0" value="" style="group" parent="5U93-Gh-OwLFXM7pe4dT-1" vertex="1" connectable="0">
           <mxGeometry x="340" y="660" width="390" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="5U93-Gh-OwLFXM7pe4dT-2" value="UDF 管理模块（JVM）" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=17;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="xxuTeMR2WuWSwrOgRUWE-0" vertex="1">
+        <mxCell id="5U93-Gh-OwLFXM7pe4dT-2" value="跨语言UDF自适应调度框架" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=17;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="xxuTeMR2WuWSwrOgRUWE-0" vertex="1">
           <mxGeometry width="390" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="5U93-Gh-OwLFXM7pe4dT-12" value="执行调度线程池" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#0e8088, #103c3f);strokeColor=#0e8088;fontColor=light-dark(#ffffff, #ededed);" parent="xxuTeMR2WuWSwrOgRUWE-0" vertex="1">
+        <mxCell id="5U93-Gh-OwLFXM7pe4dT-12" value="自适应调度线程池" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#0e8088, #103c3f);strokeColor=#0e8088;fontColor=light-dark(#ffffff, #ededed);" parent="xxuTeMR2WuWSwrOgRUWE-0" vertex="1">
           <mxGeometry x="20" y="80" width="350" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5U93-Gh-OwLFXM7pe4dT-13" value="生命周期管理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#0E8088;strokeColor=#0e8088;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="xxuTeMR2WuWSwrOgRUWE-0" vertex="1">
