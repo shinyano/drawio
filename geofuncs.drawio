@@ -73,9 +73,6 @@
             <mxPoint x="590" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZQK9envjT0dsx5QLNRdX-27" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="160" width="30" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="ZQK9envjT0dsx5QLNRdX-29" value="Math:&amp;nbsp;&lt;div&gt;&lt;div&gt;ST_DISTANCE&lt;/div&gt;&lt;/div&gt;&lt;div&gt;ST_AREA&lt;/div&gt;&lt;div&gt;......&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=16;labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="810" y="280" as="geometry" />
         </mxCell>
