@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15" version="28.1.2" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15" version="28.1.2" pages="5">
   <diagram name="Page-1" id="LkmD76cvLM23LvANVUsf">
-    <mxGraphModel dx="1121" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1367" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="D3daEXNfo8QifE0EyZMV-1" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="D3daEXNfo8QifE0EyZMV-1" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="30" y="75" width="900" height="595" as="geometry" />
         </mxCell>
         <mxCell id="MDSsundZujCJ8XekD3Zi-1" value="WKB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=16;" parent="1" vertex="1">
@@ -684,6 +684,20 @@
             <mxPoint x="810" y="530" as="sourcePoint" />
             <mxPoint x="860" y="480" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kJTjqyGIzbjSOm_Z5Dy-" name="Page-5">
+    <mxGraphModel dx="957" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eNjLNjg5nkgDqz3fdTxX-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Runtime Geography&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;{&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;font&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;int64_t mLength;&lt;br&gt;    const char* mData;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;}&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;spacing=0;verticalAlign=top;align=left;spacingTop=-11;spacingLeft=20;gradientColor=none;glass=0;arcSize=3;fillColor=light-dark(#ffffff, #ededed);" vertex="1" parent="1">
+          <mxGeometry x="68.5" y="46" width="430" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="eNjLNjg5nkgDqz3fdTxX-9" value="bool (flag) | double * 4 (Bounding Box) | binary (WKB)" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="138" width="405" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
