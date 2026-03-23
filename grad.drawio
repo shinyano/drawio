@@ -25,10 +25,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hNHC0bLUk9Oy5jZfVQEB" name="java-python-jni">
-    <mxGraphModel dx="349" dy="203" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="866" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NEiyaFoFif0EOEShN0Pr-146" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;verticalAlign=top;fontStyle=1;fillColor=#FFF9E9;strokeColor=#d6b656;align=center;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="JNI Table Data Converter" vertex="1">
+          <mxGeometry height="300" width="250" x="260" y="100" as="geometry" />
+        </mxCell>
         <mxCell id="NEiyaFoFif0EOEShN0Pr-4" parent="1" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=0;glass=0;gradientColor=none;swimlaneFillColor=default;fontFamily=Helvetica;" value="Java: List&amp;lt;List&amp;lt;T&amp;gt;&amp;gt; (N×M)" vertex="1">
           <mxGeometry height="260" width="200" x="40" y="140" as="geometry">
             <mxRectangle height="30" width="140" x="40" y="140" as="alternateBounds" />
@@ -192,7 +195,7 @@
           <mxGeometry height="30" width="140" x="60" y="220" as="geometry" />
         </mxCell>
         <mxCell id="NEiyaFoFif0EOEShN0Pr-77" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="20" width="120" x="180" y="105" as="geometry" />
+          <mxGeometry height="20" width="120" x="60" y="585" as="geometry" />
         </mxCell>
         <mxCell id="NEiyaFoFif0EOEShN0Pr-43" parent="NEiyaFoFif0EOEShN0Pr-77" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
           <mxGeometry height="20" width="120" as="geometry" />
@@ -223,8 +226,8 @@
             <mxPoint x="-18" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NEiyaFoFif0EOEShN0Pr-99" parent="1" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=0;glass=0;swimlaneFillColor=default;fontFamily=Helvetica;" value="Python: [[...], [...], ...] (N×M)" vertex="1">
-          <mxGeometry height="260" width="200" x="420" y="140" as="geometry">
+        <mxCell id="NEiyaFoFif0EOEShN0Pr-99" parent="1" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=0;glass=0;swimlaneFillColor=default;fontFamily=Helvetica;" value="Python: [[...], [...], ...] (N×M)" vertex="1">
+          <mxGeometry height="260" width="200" x="530" y="140" as="geometry">
             <mxRectangle height="30" width="140" x="40" y="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -239,7 +242,7 @@
             <mxPoint x="-8" y="-39" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NEiyaFoFif0EOEShN0Pr-102" parent="NEiyaFoFif0EOEShN0Pr-99" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;direction=west;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;labelBorderColor=none;horizontal=1;verticalAlign=bottom;swimlaneLine=1;shadow=0;" value="" vertex="1">
+        <mxCell id="NEiyaFoFif0EOEShN0Pr-102" parent="NEiyaFoFif0EOEShN0Pr-99" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;direction=west;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;labelBorderColor=none;horizontal=1;verticalAlign=bottom;swimlaneLine=1;shadow=0;" value="" vertex="1">
           <mxGeometry height="200" width="30" x="30" y="50" as="geometry" />
         </mxCell>
         <mxCell id="NEiyaFoFif0EOEShN0Pr-103" parent="NEiyaFoFif0EOEShN0Pr-102" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1">
@@ -288,19 +291,19 @@
         <mxCell id="NEiyaFoFif0EOEShN0Pr-114" connectable="0" parent="NEiyaFoFif0EOEShN0Pr-99" style="group" value="" vertex="1">
           <mxGeometry height="20" width="120" x="70" y="55" as="geometry" />
         </mxCell>
-        <mxCell id="NEiyaFoFif0EOEShN0Pr-115" parent="NEiyaFoFif0EOEShN0Pr-114" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
+        <mxCell id="NEiyaFoFif0EOEShN0Pr-115" parent="NEiyaFoFif0EOEShN0Pr-114" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="" vertex="1">
           <mxGeometry height="20" width="120" as="geometry" />
         </mxCell>
-        <mxCell id="NEiyaFoFif0EOEShN0Pr-116" parent="NEiyaFoFif0EOEShN0Pr-114" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9F2;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="T&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;pstrut&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="NEiyaFoFif0EOEShN0Pr-116" parent="NEiyaFoFif0EOEShN0Pr-114" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBF3FF;strokeColor=#9673a6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="T&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;pstrut&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="16" width="16" x="22" y="2" as="geometry" />
         </mxCell>
-        <mxCell id="NEiyaFoFif0EOEShN0Pr-117" parent="NEiyaFoFif0EOEShN0Pr-114" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9F2;strokeColor=#d79b00;" value="T&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;pstrut&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="NEiyaFoFif0EOEShN0Pr-117" parent="NEiyaFoFif0EOEShN0Pr-114" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBF3FF;strokeColor=#9673a6;" value="T&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;pstrut&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="16" width="16" x="2" y="2" as="geometry" />
         </mxCell>
-        <mxCell id="NEiyaFoFif0EOEShN0Pr-118" parent="NEiyaFoFif0EOEShN0Pr-114" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9F2;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="T&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;pstrut&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="NEiyaFoFif0EOEShN0Pr-118" parent="NEiyaFoFif0EOEShN0Pr-114" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBF3FF;strokeColor=#9673a6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="T&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;pstrut&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="16" width="16" x="42" y="2" as="geometry" />
         </mxCell>
-        <mxCell id="NEiyaFoFif0EOEShN0Pr-119" parent="NEiyaFoFif0EOEShN0Pr-114" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9F2;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="T&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;pstrut&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="NEiyaFoFif0EOEShN0Pr-119" parent="NEiyaFoFif0EOEShN0Pr-114" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBF3FF;strokeColor=#9673a6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="T&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;pstrut&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="16" width="16" x="102" y="2" as="geometry" />
         </mxCell>
         <mxCell id="NEiyaFoFif0EOEShN0Pr-120" parent="NEiyaFoFif0EOEShN0Pr-114" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="··· ···" vertex="1">
@@ -317,19 +320,19 @@
         <mxCell id="NEiyaFoFif0EOEShN0Pr-122" connectable="0" parent="NEiyaFoFif0EOEShN0Pr-99" style="group" value="" vertex="1">
           <mxGeometry height="20" width="120" x="70" y="85" as="geometry" />
         </mxCell>
-        <mxCell id="NEiyaFoFif0EOEShN0Pr-123" parent="NEiyaFoFif0EOEShN0Pr-122" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
+        <mxCell id="NEiyaFoFif0EOEShN0Pr-123" parent="NEiyaFoFif0EOEShN0Pr-122" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="" vertex="1">
           <mxGeometry height="20" width="120" as="geometry" />
         </mxCell>
-        <mxCell id="NEiyaFoFif0EOEShN0Pr-124" parent="NEiyaFoFif0EOEShN0Pr-122" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9F2;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="T&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;pstrut&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="NEiyaFoFif0EOEShN0Pr-124" parent="NEiyaFoFif0EOEShN0Pr-122" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBF3FF;strokeColor=#9673a6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="T&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;pstrut&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="16" width="16" x="22" y="2" as="geometry" />
         </mxCell>
-        <mxCell id="NEiyaFoFif0EOEShN0Pr-125" parent="NEiyaFoFif0EOEShN0Pr-122" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9F2;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="T&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;pstrut&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="NEiyaFoFif0EOEShN0Pr-125" parent="NEiyaFoFif0EOEShN0Pr-122" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBF3FF;strokeColor=#9673a6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="T&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;pstrut&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="16" width="16" x="2" y="2" as="geometry" />
         </mxCell>
-        <mxCell id="NEiyaFoFif0EOEShN0Pr-126" parent="NEiyaFoFif0EOEShN0Pr-122" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9F2;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="T&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;pstrut&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="NEiyaFoFif0EOEShN0Pr-126" parent="NEiyaFoFif0EOEShN0Pr-122" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBF3FF;strokeColor=#9673a6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="T&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;pstrut&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="16" width="16" x="42" y="2" as="geometry" />
         </mxCell>
-        <mxCell id="NEiyaFoFif0EOEShN0Pr-127" parent="NEiyaFoFif0EOEShN0Pr-122" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9F2;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="T&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;pstrut&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="NEiyaFoFif0EOEShN0Pr-127" parent="NEiyaFoFif0EOEShN0Pr-122" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBF3FF;strokeColor=#9673a6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="T&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;pstrut&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="16" width="16" x="102" y="2" as="geometry" />
         </mxCell>
         <mxCell id="NEiyaFoFif0EOEShN0Pr-128" parent="NEiyaFoFif0EOEShN0Pr-122" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="··· ···" vertex="1">
@@ -348,19 +351,19 @@
         <mxCell id="NEiyaFoFif0EOEShN0Pr-130" connectable="0" parent="NEiyaFoFif0EOEShN0Pr-99" style="group" value="" vertex="1">
           <mxGeometry height="20" width="120" x="70" y="195" as="geometry" />
         </mxCell>
-        <mxCell id="NEiyaFoFif0EOEShN0Pr-131" parent="NEiyaFoFif0EOEShN0Pr-130" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
+        <mxCell id="NEiyaFoFif0EOEShN0Pr-131" parent="NEiyaFoFif0EOEShN0Pr-130" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="" vertex="1">
           <mxGeometry height="20" width="120" as="geometry" />
         </mxCell>
-        <mxCell id="NEiyaFoFif0EOEShN0Pr-132" parent="NEiyaFoFif0EOEShN0Pr-130" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9F2;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="T&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;pstrut&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="NEiyaFoFif0EOEShN0Pr-132" parent="NEiyaFoFif0EOEShN0Pr-130" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBF3FF;strokeColor=#9673a6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="T&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;pstrut&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="16" width="16" x="22" y="2" as="geometry" />
         </mxCell>
-        <mxCell id="NEiyaFoFif0EOEShN0Pr-133" parent="NEiyaFoFif0EOEShN0Pr-130" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9F2;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="T&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;pstrut&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="NEiyaFoFif0EOEShN0Pr-133" parent="NEiyaFoFif0EOEShN0Pr-130" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBF3FF;strokeColor=#9673a6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="T&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;pstrut&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="16" width="16" x="2" y="2" as="geometry" />
         </mxCell>
-        <mxCell id="NEiyaFoFif0EOEShN0Pr-134" parent="NEiyaFoFif0EOEShN0Pr-130" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9F2;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="T&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;pstrut&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="NEiyaFoFif0EOEShN0Pr-134" parent="NEiyaFoFif0EOEShN0Pr-130" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBF3FF;strokeColor=#9673a6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="T&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;pstrut&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="16" width="16" x="42" y="2" as="geometry" />
         </mxCell>
-        <mxCell id="NEiyaFoFif0EOEShN0Pr-135" parent="NEiyaFoFif0EOEShN0Pr-130" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9F2;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="T&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;pstrut&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="NEiyaFoFif0EOEShN0Pr-135" parent="NEiyaFoFif0EOEShN0Pr-130" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBF3FF;strokeColor=#9673a6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="T&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;pstrut&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="16" width="16" x="102" y="2" as="geometry" />
         </mxCell>
         <mxCell id="NEiyaFoFif0EOEShN0Pr-136" parent="NEiyaFoFif0EOEShN0Pr-130" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="··· ···" vertex="1">
@@ -395,6 +398,32 @@
           <mxGeometry relative="1" x="0.2688" as="geometry">
             <mxPoint x="-18" y="-6" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="NEiyaFoFif0EOEShN0Pr-147" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;labelPosition=center;verticalLabelPosition=top;align=left;verticalAlign=bottom;fillColor=#FFF2CC;strokeColor=#d79b00;" value="2. &lt;span style=&quot;background-color: light-dark(rgb(255, 186, 112), rgb(255, 186, 112));&quot;&gt;For each&lt;/span&gt; in Outer Java List (&lt;font face=&quot;Courier New&quot;&gt;next()&lt;/font&gt;):" vertex="1">
+          <mxGeometry height="220" width="230" x="270" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="NEiyaFoFif0EOEShN0Pr-149" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1. &lt;span style=&quot;background-color: light-dark(rgb(255, 186, 112), rgb(255, 186, 112));&quot;&gt;Allocate&lt;/span&gt;&amp;nbsp;Inner Python List(size: M)" vertex="1">
+          <mxGeometry height="30" width="200" x="290" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="NEiyaFoFif0EOEShN0Pr-150" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1. &lt;font style=&quot;background-color: light-dark(rgb(255, 186, 112), rgb(255, 186, 112));&quot;&gt;Allocate&lt;/font&gt;&amp;nbsp;Outer Python List(size: N)" vertex="1">
+          <mxGeometry height="30" width="210" x="270" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="NEiyaFoFif0EOEShN0Pr-144" edge="1" parent="1" source="NEiyaFoFif0EOEShN0Pr-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;endSize=4;endArrow=open;endFill=0;" target="NEiyaFoFif0EOEShN0Pr-125">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="260" />
+              <mxPoint x="610" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NEiyaFoFif0EOEShN0Pr-148" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;labelPosition=center;verticalLabelPosition=top;align=left;verticalAlign=bottom;fillColor=#FFE3B6;strokeColor=#d79b00;" value="2. &lt;span style=&quot;background-color: light-dark(rgb(255, 186, 112), rgb(255, 186, 112));&quot;&gt;For each&lt;/span&gt; in Inner Java List (&lt;font face=&quot;Courier New&quot;&gt;next()&lt;/font&gt;):" vertex="1">
+          <mxGeometry height="100" width="195" x="290" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="NEiyaFoFif0EOEShN0Pr-152" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontStyle=0;labelBackgroundColor=none;fontColor=#000000;" value="&lt;ol class=&quot;list-inside list-decimal whitespace-normal [li_&amp;amp;]:pl-6&quot; data-streamdown=&quot;ordered-list&quot; style=&quot;padding-left: 2em; margin-bottom: 0px; display: flex !important; flex-direction: column !important; gap: 6px !important; margin-top: 6px !important; margin-right: 0px !important; margin-left: 0px !important;&quot;&gt;&lt;li class=&quot;py-1 [&amp;amp;&amp;gt;p]:inline&quot; data-streamdown=&quot;list-item&quot; style=&quot;padding-block: 4px; padding: 0px !important;&quot;&gt;&lt;span class=&quot;font-semibold&quot; data-streamdown=&quot;strong&quot; style=&quot;--tw-font-weight: 600;&quot;&gt;&lt;font&gt;Read Java element&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li class=&quot;py-1 [&amp;amp;&amp;gt;p]:inline&quot; data-streamdown=&quot;list-item&quot; style=&quot;padding-block: 4px; padding: 0px !important;&quot;&gt;&lt;span class=&quot;font-semibold&quot; data-streamdown=&quot;strong&quot; style=&quot;--tw-font-weight: 600;&quot;&gt;&lt;font&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 186, 112), rgb(255, 186, 112));&quot;&gt;Allocate &amp;amp; create&lt;/span&gt; Python element (&lt;code class=&quot;&quot; style=&quot;padding: 1.5px 4px; border-radius: 5px; line-height: 1.4; word-break: break-all;&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;PyObject&lt;/font&gt;&lt;/code&gt;)&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li class=&quot;py-1 [&amp;amp;&amp;gt;p]:inline&quot; data-streamdown=&quot;list-item&quot; style=&quot;padding-block: 4px; padding: 0px !important;&quot;&gt;&lt;span class=&quot;font-semibold&quot; data-streamdown=&quot;strong&quot; style=&quot;--tw-font-weight: 600;&quot;&gt;&lt;font&gt;Insert into Inner Python list slot&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" vertex="1">
+          <mxGeometry height="105" width="180" x="290" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="NEiyaFoFif0EOEShN0Pr-153" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3. Insert&amp;nbsp;&lt;/span&gt;Inner Python List&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;into Outer Python list slot&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="195" x="290" y="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
