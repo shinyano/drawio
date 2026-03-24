@@ -756,7 +756,7 @@
             <mxPoint x="-15" y="12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ay79FXmsF863yVpd-NEf-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#9673a6;fontSize=10;" value="PyCapsule" vertex="1">
+        <mxCell id="ay79FXmsF863yVpd-NEf-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#9673a6;fontSize=10;" value="RecordBatch" vertex="1">
           <mxGeometry height="20" width="120" x="500" y="360" as="geometry" />
         </mxCell>
         <mxCell id="ay79FXmsF863yVpd-NEf-12" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.add_on;fillColor=#759C3E;gradientColor=none;" value="" vertex="1">
@@ -844,7 +844,7 @@
             <mxPoint x="-15" y="18" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ay79FXmsF863yVpd-NEf-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#9673a6;fontSize=10;" value="PyCapsule" vertex="1">
+        <mxCell id="ay79FXmsF863yVpd-NEf-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#9673a6;fontSize=10;" value="RecordBatch" vertex="1">
           <mxGeometry height="20" width="120" x="500" y="609.99" as="geometry" />
         </mxCell>
         <mxCell id="ay79FXmsF863yVpd-NEf-39" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.add_on;fillColor=#759C3E;gradientColor=none;" value="" vertex="1">
