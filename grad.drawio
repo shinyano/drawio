@@ -673,7 +673,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cDHW2CS2ZY5cfqIIIi8T" name="transfer-owner">
-    <mxGraphModel dx="446" dy="263" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="637" dy="375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -765,7 +765,7 @@
         <mxCell id="ay79FXmsF863yVpd-NEf-13" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
           <mxGeometry height="10" width="10" x="605" y="355" as="geometry" />
         </mxCell>
-        <mxCell id="ay79FXmsF863yVpd-NEf-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 4 1 4;curved=1;" value="">
+        <mxCell id="ay79FXmsF863yVpd-NEf-16" edge="1" parent="1" style="endArrow=classicThin;html=1;rounded=0;dashed=1;dashPattern=8 8;curved=1;endFill=1;endSize=6;fillColor=#f8cecc;strokeColor=#b85450;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="300" y="340" />
@@ -786,8 +786,8 @@
         <mxCell id="ay79FXmsF863yVpd-NEf-20" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.add_on;fillColor=#759C3E;gradientColor=none;" value="" vertex="1">
           <mxGeometry height="10" width="20" x="440" y="545" as="geometry" />
         </mxCell>
-        <mxCell id="ay79FXmsF863yVpd-NEf-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="JVM (Java)" vertex="1">
-          <mxGeometry height="40" width="140" x="170" y="600" as="geometry" />
+        <mxCell id="ay79FXmsF863yVpd-NEf-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="JVM (Java)" vertex="1">
+          <mxGeometry height="40" width="140" x="170" y="599.99" as="geometry" />
         </mxCell>
         <mxCell id="ay79FXmsF863yVpd-NEf-22" edge="1" parent="1" source="ay79FXmsF863yVpd-NEf-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="ay79FXmsF863yVpd-NEf-17">
           <mxGeometry relative="1" as="geometry" />
@@ -806,27 +806,27 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ay79FXmsF863yVpd-NEf-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#6c8ebf;fontSize=10;" value="VectorSchemaRoot" vertex="1">
-          <mxGeometry height="20" width="120" x="180" y="610" as="geometry" />
+          <mxGeometry height="20" width="120" x="180" y="609.99" as="geometry" />
         </mxCell>
         <mxCell id="ay79FXmsF863yVpd-NEf-27" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.add_on;fillColor=#759C3E;gradientColor=none;" value="" vertex="1">
-          <mxGeometry height="10" width="20" x="280" y="605" as="geometry" />
+          <mxGeometry height="10" width="20" x="280" y="604.99" as="geometry" />
         </mxCell>
-        <mxCell id="ay79FXmsF863yVpd-NEf-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" value="C ABI Boundary" vertex="1">
-          <mxGeometry height="40" width="140" x="330" y="600" as="geometry" />
+        <mxCell id="ay79FXmsF863yVpd-NEf-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;" value="C ABI Boundary" vertex="1">
+          <mxGeometry height="40" width="140" x="330" y="599.99" as="geometry" />
         </mxCell>
         <mxCell id="ay79FXmsF863yVpd-NEf-29" edge="1" parent="1" source="ay79FXmsF863yVpd-NEf-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endSize=2;jumpStyle=gap;" target="ay79FXmsF863yVpd-NEf-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ay79FXmsF863yVpd-NEf-30" connectable="0" parent="ay79FXmsF863yVpd-NEf-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="hold &amp;amp; release" vertex="1">
+        <mxCell id="ay79FXmsF863yVpd-NEf-30" connectable="0" parent="ay79FXmsF863yVpd-NEf-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;hold &amp;amp; released&lt;/span&gt;&lt;/div&gt;&lt;div&gt;(method set to NULL)&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.0207" y="-3" as="geometry">
-            <mxPoint x="-42" y="1" as="offset" />
+            <mxPoint x="-58" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ay79FXmsF863yVpd-NEf-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#666666;fontSize=10;fontColor=#333333;" value="PyCapsule" vertex="1">
-          <mxGeometry height="20" width="120" x="340" y="610" as="geometry" />
+          <mxGeometry height="20" width="120" x="340" y="609.99" as="geometry" />
         </mxCell>
-        <mxCell id="ay79FXmsF863yVpd-NEf-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" value="CPython (Python)" vertex="1">
-          <mxGeometry height="40" width="140" x="490" y="600" as="geometry" />
+        <mxCell id="ay79FXmsF863yVpd-NEf-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;" value="CPython (Python)" vertex="1">
+          <mxGeometry height="40" width="140" x="490" y="599.99" as="geometry" />
         </mxCell>
         <mxCell id="ay79FXmsF863yVpd-NEf-34" edge="1" parent="1" source="ay79FXmsF863yVpd-NEf-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;" target="ay79FXmsF863yVpd-NEf-17">
           <mxGeometry relative="1" as="geometry" />
@@ -839,50 +839,63 @@
         <mxCell id="ay79FXmsF863yVpd-NEf-36" edge="1" parent="1" source="ay79FXmsF863yVpd-NEf-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;" target="ay79FXmsF863yVpd-NEf-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ay79FXmsF863yVpd-NEf-37" connectable="0" parent="ay79FXmsF863yVpd-NEf-36" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="hold &amp;amp; release" vertex="1">
+        <mxCell id="ay79FXmsF863yVpd-NEf-37" connectable="0" parent="ay79FXmsF863yVpd-NEf-36" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;labelBorderColor=none;" value="hold &amp;amp; release&lt;div&gt;(destructed)&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.2644" y="12" as="geometry">
-            <mxPoint x="-15" y="12" as="offset" />
+            <mxPoint x="-15" y="18" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ay79FXmsF863yVpd-NEf-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#9673a6;fontSize=10;" value="PyCapsule" vertex="1">
-          <mxGeometry height="20" width="120" x="500" y="610" as="geometry" />
+          <mxGeometry height="20" width="120" x="500" y="609.99" as="geometry" />
         </mxCell>
         <mxCell id="ay79FXmsF863yVpd-NEf-39" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.add_on;fillColor=#759C3E;gradientColor=none;" value="" vertex="1">
-          <mxGeometry height="10" width="20" x="596" y="605" as="geometry" />
+          <mxGeometry height="10" width="20" x="596" y="604.99" as="geometry" />
         </mxCell>
         <mxCell id="ay79FXmsF863yVpd-NEf-40" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
-          <mxGeometry height="10" width="10" x="605" y="605" as="geometry" />
+          <mxGeometry height="10" width="10" x="605" y="604.99" as="geometry" />
         </mxCell>
         <mxCell id="ay79FXmsF863yVpd-NEf-42" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.add_on;fillColor=#759C3E;gradientColor=none;" value="" vertex="1">
-          <mxGeometry height="10" width="20" x="437" y="605" as="geometry" />
+          <mxGeometry height="10" width="20" x="437" y="604.99" as="geometry" />
         </mxCell>
         <mxCell id="ay79FXmsF863yVpd-NEf-32" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
-          <mxGeometry height="10" width="10" x="446" y="605" as="geometry" />
+          <mxGeometry height="10" width="10" x="446" y="604.99" as="geometry" />
         </mxCell>
-        <mxCell id="ay79FXmsF863yVpd-NEf-43" edge="1" parent="1" source="ay79FXmsF863yVpd-NEf-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="ay79FXmsF863yVpd-NEf-32">
+        <mxCell id="ay79FXmsF863yVpd-NEf-43" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.43;entryY=1.057;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#D79B00;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=open;endFill=0;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="606" y="585" />
-              <mxPoint x="446" y="585" />
+              <mxPoint x="609" y="670" />
+              <mxPoint x="454" y="670" />
             </Array>
+            <mxPoint x="609" y="614.99" as="sourcePoint" />
+            <mxPoint x="454.29999999999995" y="615.56" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ay79FXmsF863yVpd-NEf-44" connectable="0" parent="ay79FXmsF863yVpd-NEf-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="① give release() to PyCapsule&lt;div&gt;② destruct&amp;nbsp;&lt;/div&gt;" vertex="1">
+        <mxCell id="ay79FXmsF863yVpd-NEf-44" connectable="0" parent="ay79FXmsF863yVpd-NEf-43" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#D79B00;fontStyle=1" value="① Export release() to PyCapsule&lt;div&gt;④ Destruct pa.BatchRecord&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.6087" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-153" y="19" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ay79FXmsF863yVpd-NEf-48" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;width=4.814814814814815;endSize=2.009259259259259;endWidth=5.757887517146776;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="310" y="619.8" as="sourcePoint" />
-            <mxPoint x="330" y="619.8" as="targetPoint" />
+            <mxPoint x="330" y="619.79" as="sourcePoint" />
+            <mxPoint x="310" y="619.79" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ay79FXmsF863yVpd-NEf-49" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;width=4.814814814814815;endSize=2.009259259259259;endWidth=5.757887517146776;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="470" y="619.8" as="sourcePoint" />
-            <mxPoint x="490" y="619.8" as="targetPoint" />
+            <mxPoint x="490" y="619.79" as="sourcePoint" />
+            <mxPoint x="470" y="619.79" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ay79FXmsF863yVpd-NEf-51" edge="1" parent="1" source="ay79FXmsF863yVpd-NEf-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;endArrow=open;endFill=0;" target="ay79FXmsF863yVpd-NEf-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="447" y="670" />
+              <mxPoint x="285" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ay79FXmsF863yVpd-NEf-52" connectable="0" parent="1" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#D79B00;fontStyle=1" value="② Export release() to&amp;nbsp;VectorSchemaRoot&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(215, 155, 0), rgb(153, 101, 0));&quot;&gt;③&lt;/span&gt;&amp;nbsp;Set PyCapsule&#39;s release() to NULL&lt;/div&gt;" vertex="1">
+          <mxGeometry x="230" y="686" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
