@@ -429,7 +429,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WFk8tpvzRCZwYxpvv-VY" name="arrow-java-python">
-    <mxGraphModel dx="718" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="718" dy="375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -443,7 +443,9 @@
           <mxGeometry height="210" width="370" x="150" y="180" as="geometry" />
         </mxCell>
         <mxCell id="kUhIizUCT9buDsnp4uzl-21" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=default;swimlaneFillColor=none;textDirection=ltr;rotation=0;verticalAlign=middle;flipH=0;legacyAnchorPoints=0;flipV=1;rounded=1;opacity=70;startSize=20;strokeWidth=1;" value="Python - RecordSchema" vertex="1">
-          <mxGeometry height="210" width="370" x="310" y="240" as="geometry" />
+          <mxGeometry height="210" width="370" x="310" y="240" as="geometry">
+            <mxRectangle height="30" width="170" x="310" y="240" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="kUhIizUCT9buDsnp4uzl-17" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=default;gradientColor=none;rounded=1;labelBackgroundColor=none;fillStyle=auto;swimlaneFillColor=default;fontSize=11;" value="&lt;span&gt;Arrow Buffer&lt;/span&gt;" vertex="1">
           <mxGeometry height="130" width="190" x="320" y="250" as="geometry" />
@@ -466,7 +468,7 @@
         <mxCell id="kUhIizUCT9buDsnp4uzl-6" parent="kUhIizUCT9buDsnp4uzl-17" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=10;" value="Data Buffer" vertex="1">
           <mxGeometry height="30" width="140" x="25" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="kUhIizUCT9buDsnp4uzl-8" parent="kUhIizUCT9buDsnp4uzl-17" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=10;" value="Validity Map" vertex="1">
+        <mxCell id="kUhIizUCT9buDsnp4uzl-8" parent="kUhIizUCT9buDsnp4uzl-17" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=10;" value="Validity Bitm&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ap&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="140" x="25" y="60" as="geometry" />
         </mxCell>
         <mxCell id="kUhIizUCT9buDsnp4uzl-9" parent="kUhIizUCT9buDsnp4uzl-17" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=10;" value="Offsets(optional&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;" vertex="1">
