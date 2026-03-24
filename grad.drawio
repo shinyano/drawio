@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.4" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.4" pages="5">
   <diagram name="old-udf" id="jOclentEXqpCCVR0DnO-">
     <mxGraphModel dx="1082" dy="5439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -524,6 +524,50 @@
               <mxPoint x="530" y="348" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sTMdgccTo5b_nh0A-OaL" name="algo-java2python">
+    <mxGraphModel dx="718" dy="375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dT_3gHyKS9p5Hi-viPuV-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#ebf3ff, #1d293b);strokeColor=#6c8ebf;verticalAlign=top;fontStyle=1;align=center;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="JVM(Java)" vertex="1">
+          <mxGeometry height="320" width="130" x="250" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dT_3gHyKS9p5Hi-viPuV-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;verticalAlign=top;fontColor=#333333;" value="JNI (C&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="320" width="130" x="400" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dT_3gHyKS9p5Hi-viPuV-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;" value="CPython (Python)" vertex="1">
+          <mxGeometry height="320" width="130" x="550" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dT_3gHyKS9p5Hi-viPuV-12" edge="1" parent="1" source="dT_3gHyKS9p5Hi-viPuV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endSize=3;startArrow=classic;startFill=1;startSize=3;" target="dT_3gHyKS9p5Hi-viPuV-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dT_3gHyKS9p5Hi-viPuV-13" edge="1" parent="1" source="dT_3gHyKS9p5Hi-viPuV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endSize=3;" target="dT_3gHyKS9p5Hi-viPuV-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dT_3gHyKS9p5Hi-viPuV-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#ebf3ff, #1d293b);strokeColor=#6c8ebf;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;" value="VectorSchemaRoot" vertex="1">
+          <mxGeometry height="177.5" width="110" x="260" y="152.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dT_3gHyKS9p5Hi-viPuV-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="FieldVector" vertex="1">
+          <mxGeometry height="30" width="90" x="270" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dT_3gHyKS9p5Hi-viPuV-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="FieldVector" vertex="1">
+          <mxGeometry height="30" width="90" x="270" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dT_3gHyKS9p5Hi-viPuV-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="FieldVector" vertex="1">
+          <mxGeometry height="30" width="90" x="270" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="dT_3gHyKS9p5Hi-viPuV-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;horizontal=0;" value="··· ···" vertex="1">
+          <mxGeometry height="30" width="60" x="285" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="dT_3gHyKS9p5Hi-viPuV-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E4E4E4;fontColor=#333333;strokeColor=#666666;" value="ArrowSchema&lt;div&gt;(C struct)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="37.5" width="105" x="412.5" y="152.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dT_3gHyKS9p5Hi-viPuV-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E4E4E4;fontColor=#333333;strokeColor=#666666;" value="ArrowArray&lt;div&gt;(C struct)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="37.5" width="105" x="412.5" y="252.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
