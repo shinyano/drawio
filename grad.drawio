@@ -433,22 +433,22 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kUhIizUCT9buDsnp4uzl-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=light-dark(#F1E4F8,#F1E4F8);opacity=50;" value="" vertex="1">
-          <mxGeometry height="190" width="370" x="310" y="240" as="geometry" />
+        <mxCell id="kUhIizUCT9buDsnp4uzl-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=light-dark(#F1E4F8,#F1E4F8);opacity=50;arcSize=5;" value="" vertex="1">
+          <mxGeometry height="200" width="370" x="310" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="kUhIizUCT9buDsnp4uzl-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=light-dark(#DAE8FC,#1D293B);opacity=50;" value="" vertex="1">
-          <mxGeometry height="190" width="370" x="150" y="200" as="geometry" />
-        </mxCell>
-        <mxCell id="kUhIizUCT9buDsnp4uzl-19" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=default;swimlaneFillColor=none;fillStyle=auto;gradientColor=none;swimlaneLine=1;rounded=0;startSize=20;" value="Java - VectorSchemaRoot" vertex="1">
+        <mxCell id="kUhIizUCT9buDsnp4uzl-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=light-dark(#DAE8FC,#1D293B);opacity=50;arcSize=5;" value="" vertex="1">
           <mxGeometry height="210" width="370" x="150" y="180" as="geometry" />
         </mxCell>
-        <mxCell id="kUhIizUCT9buDsnp4uzl-21" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=default;swimlaneFillColor=none;textDirection=ltr;rotation=0;verticalAlign=middle;flipH=0;legacyAnchorPoints=0;flipV=1;rounded=0;opacity=70;startSize=20;strokeWidth=1;" value="Python - RecordSchema" vertex="1">
+        <mxCell id="kUhIizUCT9buDsnp4uzl-19" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=default;swimlaneFillColor=none;fillStyle=auto;gradientColor=none;swimlaneLine=1;rounded=1;startSize=20;" value="Java - VectorSchemaRoot" vertex="1">
+          <mxGeometry height="210" width="370" x="150" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="kUhIizUCT9buDsnp4uzl-21" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=default;swimlaneFillColor=none;textDirection=ltr;rotation=0;verticalAlign=middle;flipH=0;legacyAnchorPoints=0;flipV=1;rounded=1;opacity=70;startSize=20;strokeWidth=1;" value="Python - RecordSchema" vertex="1">
           <mxGeometry height="210" width="370" x="310" y="240" as="geometry" />
         </mxCell>
         <mxCell id="kUhIizUCT9buDsnp4uzl-17" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=default;gradientColor=none;rounded=1;labelBackgroundColor=none;fillStyle=auto;swimlaneFillColor=default;fontSize=11;" value="&lt;span&gt;Arrow Buffer&lt;/span&gt;" vertex="1">
           <mxGeometry height="130" width="190" x="320" y="250" as="geometry" />
         </mxCell>
-        <mxCell id="kUhIizUCT9buDsnp4uzl-2" parent="kUhIizUCT9buDsnp4uzl-17" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;textShadow=0;fontSize=12;fontStyle=1;fillColor=#d5e8d4;strokeColor=none;" value="" vertex="1">
+        <mxCell id="kUhIizUCT9buDsnp4uzl-2" parent="kUhIizUCT9buDsnp4uzl-17" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;textShadow=0;fontSize=12;fontStyle=1;fillColor=#d5e8d4;strokeColor=none;dashed=1;" value="" vertex="1">
           <mxGeometry height="90" width="160" x="15" y="30" as="geometry" />
         </mxCell>
         <mxCell id="kUhIizUCT9buDsnp4uzl-4" edge="1" parent="kUhIizUCT9buDsnp4uzl-17" style="endArrow=none;html=1;rounded=0;" value="">
