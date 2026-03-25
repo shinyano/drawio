@@ -1046,7 +1046,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IvayGYpZ4o8hMNg3JjWc-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;strokeColor=#9673a6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=light-dark(#faf0ff, #392f3f);" value="Execute compute" vertex="1">
-          <mxGeometry height="40" width="100" x="600" y="345" as="geometry" />
+          <mxGeometry height="135" width="100" x="600" y="250" as="geometry" />
         </mxCell>
         <mxCell id="IvayGYpZ4o8hMNg3JjWc-47" parent="1" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="Return&lt;div&gt;result&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="70" x="700" y="390" as="geometry" />
