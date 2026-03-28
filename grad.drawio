@@ -1251,7 +1251,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b5aVaGEW7s3sjBtsk-a1" name="new-udf-dispatcher">
-    <mxGraphModel dx="631" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="915" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1314,7 +1314,7 @@
             <mxPoint x="-34" y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7Q99yusN8WQTsCm3SNdW-1" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;fillColor=light-dark(#c5daf7, #1d293b);strokeColor=#6c8ebf;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;接口层 AdaptiveUDFExecutor&lt;/b&gt;&lt;/font&gt;&lt;div&gt;单例模式 | 统一任务接收 | 管理线程池生命周期&lt;/div&gt;" vertex="1">
+        <mxCell id="7Q99yusN8WQTsCm3SNdW-1" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;fillColor=light-dark(#c2d2e0, #3c4d5c);strokeColor=#314354;rounded=1;fillStyle=auto;align=center;verticalAlign=bottom;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;接口层 AdaptiveUDFExecutor&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;单例模式 | 统一任务接收 | 管理线程池生命周期&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="430" x="520" y="560" as="geometry" />
         </mxCell>
         <mxCell id="7Q99yusN8WQTsCm3SNdW-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontColor=#000000;strokeColor=#314354;dashed=1;verticalAlign=top;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;执行层&amp;nbsp;AdaptiveUDFThreadPoolExecutor&lt;/b&gt;&lt;/font&gt;&lt;div&gt;物理资源隔离 | 解释器资源管理&lt;/div&gt;" vertex="1">
