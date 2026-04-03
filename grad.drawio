@@ -1472,11 +1472,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mO5IHieDU8rwlRknNatS" name="udf-decorator-data-flow">
-    <mxGraphModel dx="787" dy="488" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="570" dy="337" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7Bm6M9tCtfGu_7xK29al-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=light-dark(#f0f6ff, #1d293b);strokeColor=none;" value="" vertex="1">
+        <mxCell id="7Bm6M9tCtfGu_7xK29al-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=light-dark(#f6f8f7, #1f2020);strokeColor=none;" value="" vertex="1">
           <mxGeometry height="360" width="506" x="224" y="110" as="geometry" />
         </mxCell>
         <mxCell id="7Bm6M9tCtfGu_7xK29al-1" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontStyle=1;strokeWidth=2;" value="">
@@ -1485,13 +1485,13 @@
             <mxPoint x="240" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7Bm6M9tCtfGu_7xK29al-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=11;" value="JVM&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;(IGinX Java Engine)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="7Bm6M9tCtfGu_7xK29al-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=12;" value="JVM&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;(IGinX Java Engine)&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="120" x="260" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="7Bm6M9tCtfGu_7xK29al-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=11;" value="Framework Layer&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;(UDFWrapper)&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="120" x="417" y="120" as="geometry" />
+        <mxCell id="7Bm6M9tCtfGu_7xK29al-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=12;" value="Framework Layer&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;(UDFWrapper)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="400" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="7Bm6M9tCtfGu_7xK29al-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=11;" value="User Space&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;(MyUDF Instance)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="7Bm6M9tCtfGu_7xK29al-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=12;" value="User Space&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;(MyUDF Instance)&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="120" x="580" y="120" as="geometry" />
         </mxCell>
         <mxCell id="7Bm6M9tCtfGu_7xK29al-9" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontStyle=1;strokeWidth=2;" value="">
@@ -1511,6 +1511,37 @@
             <mxPoint x="719.66" y="460" as="sourcePoint" />
             <mxPoint x="719.66" y="120" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="7Bm6M9tCtfGu_7xK29al-18" edge="1" parent="1" source="7Bm6M9tCtfGu_7xK29al-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;fillColor=#647687;strokeColor=none;endWidth=11.73076923076923;endSize=6.4788461538461535;" target="7Bm6M9tCtfGu_7xK29al-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Bm6M9tCtfGu_7xK29al-19" connectable="0" parent="7Bm6M9tCtfGu_7xK29al-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="pandas.Dataframe" vertex="1">
+          <mxGeometry relative="1" x="-0.196" y="-2" as="geometry">
+            <mxPoint x="18" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Bm6M9tCtfGu_7xK29al-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;fontSize=11;fillColor=none;arcSize=8;" value="Data Conversion &amp;amp;&lt;div&gt;Unpacking&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="140" x="410" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="7Bm6M9tCtfGu_7xK29al-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#b1c0ce, #7d8c9b);fontColor=default;strokeColor=#314354;fontSize=11;" value="_list_to_dataframe()" vertex="1">
+          <mxGeometry height="30" width="130" x="415" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="7Bm6M9tCtfGu_7xK29al-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#b1c0ce, #7d8c9b);fontColor=default;strokeColor=#314354;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;" value="_unpack_java_params()" vertex="1">
+          <mxGeometry height="30" width="130" x="415" y="244" as="geometry" />
+        </mxCell>
+        <mxCell id="7Bm6M9tCtfGu_7xK29al-15" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.002;entryY=0.28;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#647687;strokeColor=none;endWidth=10.72;endSize=6.3568;" target="7Bm6M9tCtfGu_7xK29al-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="200" as="sourcePoint" />
+            <mxPoint x="400" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Bm6M9tCtfGu_7xK29al-16" connectable="0" parent="7Bm6M9tCtfGu_7xK29al-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="Python Call&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Raw Data&lt;/div&gt;&lt;div&gt;(2D List)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1967" y="-1" as="geometry">
+            <mxPoint x="-22" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Bm6M9tCtfGu_7xK29al-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#b1c0ce, #7d8c9b);fontColor=default;strokeColor=#314354;fontSize=11;" value="self._wrapped.eval(df)" vertex="1">
+          <mxGeometry height="30" width="130" x="575" y="290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
