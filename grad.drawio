@@ -1414,11 +1414,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="oSJyKCxhT19kllRcjmfu" name="udf-decorator">
-    <mxGraphModel dx="870" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1037" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="b5s3bhF4ktjwxXzzDgDc-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=none;swimlaneFillColor=default;" value="UDFWrapper(ABC)" vertex="1">
+        <mxCell id="b5s3bhF4ktjwxXzzDgDc-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;swimlaneFillColor=default;" value="UDFWrapper(ABC)" vertex="1">
           <mxGeometry height="220" width="320" x="30" y="180" as="geometry" />
         </mxCell>
         <mxCell id="b5s3bhF4ktjwxXzzDgDc-2" parent="b5s3bhF4ktjwxXzzDgDc-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- self.__cls: class&lt;div&gt;#&amp;nbsp;self._wrapped: object&lt;/div&gt;" vertex="1">
@@ -1430,7 +1430,7 @@
         <mxCell id="b5s3bhF4ktjwxXzzDgDc-4" parent="b5s3bhF4ktjwxXzzDgDc-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ __init__(cls)&lt;/div&gt;+ &amp;lt;&amp;lt;callback&amp;gt;&amp;gt; __call__(*args, **kwargs)&lt;div&gt;+ &amp;lt;&amp;lt;proxy&amp;gt;&amp;gt; __getattr__(item)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;# _list_to_dataframe(list): pd.Dataframe&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;# _unpack_java_params(args)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;# _dataframe_to_list(pd.Dataframe): list&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;&lt;b&gt;+ transform(pd.Dataframe, *args, **kwargs) {abstract}&lt;/b&gt;&lt;/i&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="142" width="320" y="78" as="geometry" />
         </mxCell>
-        <mxCell id="b5s3bhF4ktjwxXzzDgDc-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=default;" value="UDTFWrapper" vertex="1">
+        <mxCell id="b5s3bhF4ktjwxXzzDgDc-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;swimlaneFillColor=default;" value="UDTFWrapper" vertex="1">
           <mxGeometry height="80" width="340" x="400" y="172" as="geometry" />
         </mxCell>
         <mxCell id="b5s3bhF4ktjwxXzzDgDc-11" parent="b5s3bhF4ktjwxXzzDgDc-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
@@ -1439,7 +1439,7 @@
         <mxCell id="b5s3bhF4ktjwxXzzDgDc-12" parent="b5s3bhF4ktjwxXzzDgDc-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;+ transform(pd.Dataframe, *args, **kwargs): pd.Dataframe&lt;/b&gt;&lt;div&gt;+&amp;nbsp;get_udf_type(): str&lt;/div&gt;" vertex="1">
           <mxGeometry height="46" width="340" y="34" as="geometry" />
         </mxCell>
-        <mxCell id="b5s3bhF4ktjwxXzzDgDc-13" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=default;" value="UDAFWrapper" vertex="1">
+        <mxCell id="b5s3bhF4ktjwxXzzDgDc-13" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;swimlaneFillColor=default;" value="UDAFWrapper" vertex="1">
           <mxGeometry height="80" width="340" x="400" y="272" as="geometry" />
         </mxCell>
         <mxCell id="b5s3bhF4ktjwxXzzDgDc-14" parent="b5s3bhF4ktjwxXzzDgDc-13" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
@@ -1448,7 +1448,7 @@
         <mxCell id="b5s3bhF4ktjwxXzzDgDc-15" parent="b5s3bhF4ktjwxXzzDgDc-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;+ transform(pd.Dataframe, *args, **kwargs): pd.Dataframe&lt;/b&gt;&lt;div&gt;+&amp;nbsp;get_udf_type(): str&lt;/div&gt;" vertex="1">
           <mxGeometry height="46" width="340" y="34" as="geometry" />
         </mxCell>
-        <mxCell id="b5s3bhF4ktjwxXzzDgDc-16" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=default;" value="UDSFWrapper" vertex="1">
+        <mxCell id="b5s3bhF4ktjwxXzzDgDc-16" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;swimlaneFillColor=default;" value="UDSFWrapper" vertex="1">
           <mxGeometry height="80" width="340" x="400" y="372" as="geometry" />
         </mxCell>
         <mxCell id="b5s3bhF4ktjwxXzzDgDc-17" parent="b5s3bhF4ktjwxXzzDgDc-16" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
