@@ -673,7 +673,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cDHW2CS2ZY5cfqIIIi8T" name="transfer-owner">
-    <mxGraphModel dx="290" dy="188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="497" dy="323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -908,6 +908,12 @@
             <mxPoint x="456.01428571428573" y="286" as="sourcePoint" />
             <mxPoint x="610.7142857142858" y="286.56999999999994" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="GfDtn_F_OyKkU2yB5flh-8" connectable="0" parent="1" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#D79B00;fontStyle=1" value="① Export release() to PyCapsule&lt;div&gt;④&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(215, 155, 0), rgb(153, 101, 0));&quot;&gt;Set&amp;nbsp;&lt;/span&gt;VectorSchemaRoot&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(215, 155, 0), rgb(153, 101, 0));&quot;&gt;&#39;s&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(215, 155, 0), rgb(153, 101, 0));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(215, 155, 0), rgb(153, 101, 0));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(215, 155, 0), rgb(153, 101, 0));&quot;&gt;release()&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(215, 155, 0), rgb(153, 101, 0));&quot;&gt;to NULL&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry x="280" y="366" as="geometry" />
+        </mxCell>
+        <mxCell id="GfDtn_F_OyKkU2yB5flh-9" connectable="0" parent="1" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#D79B00;fontStyle=1" value="② Export release() to&amp;nbsp;RecordBatch&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(215, 155, 0), rgb(153, 101, 0));&quot;&gt;③&lt;/span&gt;&amp;nbsp;Set PyCapsule&#39;s release() to NULL&lt;/div&gt;" vertex="1">
+          <mxGeometry x="460" y="360" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
