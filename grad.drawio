@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" pages="10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" pages="11">
   <diagram name="old-udf" id="jOclentEXqpCCVR0DnO-">
     <mxGraphModel dx="1082" dy="5439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1467,6 +1467,50 @@
         </mxCell>
         <mxCell id="b5s3bhF4ktjwxXzzDgDc-21" edge="1" parent="1" source="b5s3bhF4ktjwxXzzDgDc-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;" target="b5s3bhF4ktjwxXzzDgDc-4">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mO5IHieDU8rwlRknNatS" name="udf-decorator-data-flow">
+    <mxGraphModel dx="787" dy="488" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7Bm6M9tCtfGu_7xK29al-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=light-dark(#f0f6ff, #1d293b);strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="360" width="506" x="224" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="7Bm6M9tCtfGu_7xK29al-1" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontStyle=1;strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="460" as="sourcePoint" />
+            <mxPoint x="240" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Bm6M9tCtfGu_7xK29al-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=11;" value="JVM&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;(IGinX Java Engine)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="260" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7Bm6M9tCtfGu_7xK29al-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=11;" value="Framework Layer&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;(UDFWrapper)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="417" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7Bm6M9tCtfGu_7xK29al-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=11;" value="User Space&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;(MyUDF Instance)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="580" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7Bm6M9tCtfGu_7xK29al-9" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontStyle=1;strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="460" as="sourcePoint" />
+            <mxPoint x="400" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Bm6M9tCtfGu_7xK29al-10" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontStyle=1;strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="460" as="sourcePoint" />
+            <mxPoint x="560" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Bm6M9tCtfGu_7xK29al-11" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontStyle=1;strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="719.66" y="460" as="sourcePoint" />
+            <mxPoint x="719.66" y="120" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
