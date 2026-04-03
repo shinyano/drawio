@@ -706,9 +706,9 @@
         <mxCell id="jvGx13nNP5Y4cDIGVbNu-10" edge="1" parent="1" source="jvGx13nNP5Y4cDIGVbNu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;" target="jvGx13nNP5Y4cDIGVbNu-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jvGx13nNP5Y4cDIGVbNu-11" connectable="0" parent="jvGx13nNP5Y4cDIGVbNu-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;span style=&quot;&quot;&gt;hold &amp;amp; release&lt;/span&gt;&lt;div style=&quot;&quot;&gt;(destructed)&lt;/div&gt;" vertex="1">
+        <mxCell id="jvGx13nNP5Y4cDIGVbNu-11" connectable="0" parent="jvGx13nNP5Y4cDIGVbNu-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;hold &amp;amp; release&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;(&lt;span style=&quot;text-align: left;&quot;&gt;method set to NULL&lt;/span&gt;)&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.5238" y="-6" as="geometry">
-            <mxPoint x="-4" y="24" as="offset" />
+            <mxPoint x="16" y="24" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jvGx13nNP5Y4cDIGVbNu-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#6c8ebf;fontSize=10;" value="VectorSchemaRoot" vertex="1">
