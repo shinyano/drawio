@@ -1575,7 +1575,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="euafM15fInyzPXIByqfF" name="udf-dispatcher-flow">
-    <mxGraphModel dx="534" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="1" shadow="0">
+    <mxGraphModel dx="911" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1825,30 +1825,30 @@
           <mxGeometry height="200" width="650" x="210" y="460" as="geometry" />
         </mxCell>
         <mxCell id="n1Sj-HwkjqAA0kC4zKMR-14" parent="1" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;strokeColor=#4B4B4B;" value="" vertex="1">
-          <mxGeometry height="50" width="120" x="330" y="470" as="geometry" />
+          <mxGeometry height="50" width="130" x="320" y="470" as="geometry" />
         </mxCell>
         <mxCell id="n1Sj-HwkjqAA0kC4zKMR-15" parent="n1Sj-HwkjqAA0kC4zKMR-14" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;" value="" vertex="1">
-          <mxGeometry height="17" width="120" as="geometry" />
+          <mxGeometry height="17" width="130" as="geometry" />
         </mxCell>
         <mxCell id="n1Sj-HwkjqAA0kC4zKMR-16" parent="n1Sj-HwkjqAA0kC4zKMR-15" style="connectable=0;recursiveResize=0;strokeColor=none;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="\(T_{current}\) ← \(T_{base}\)" vertex="1">
-          <mxGeometry height="17" width="120" as="geometry">
-            <mxRectangle height="17" width="120" as="alternateBounds" />
+          <mxGeometry height="17" width="130" as="geometry">
+            <mxRectangle height="17" width="130" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="n1Sj-HwkjqAA0kC4zKMR-19" parent="n1Sj-HwkjqAA0kC4zKMR-14" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;" vertex="1">
-          <mxGeometry height="16" width="120" y="17" as="geometry" />
+          <mxGeometry height="16" width="130" y="17" as="geometry" />
         </mxCell>
         <mxCell id="n1Sj-HwkjqAA0kC4zKMR-20" parent="n1Sj-HwkjqAA0kC4zKMR-19" style="connectable=0;recursiveResize=0;strokeColor=none;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="（恢复基准探测间隔）" vertex="1">
-          <mxGeometry height="16" width="120" as="geometry">
-            <mxRectangle height="16" width="120" as="alternateBounds" />
+          <mxGeometry height="16" width="130" as="geometry">
+            <mxRectangle height="16" width="130" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="n1Sj-HwkjqAA0kC4zKMR-23" parent="n1Sj-HwkjqAA0kC4zKMR-14" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;" vertex="1">
-          <mxGeometry height="17" width="120" y="33" as="geometry" />
+          <mxGeometry height="17" width="130" y="33" as="geometry" />
         </mxCell>
         <mxCell id="n1Sj-HwkjqAA0kC4zKMR-24" parent="n1Sj-HwkjqAA0kC4zKMR-23" style="connectable=0;recursiveResize=0;strokeColor=none;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="\(Count_{idle}\) ← \(0\)" vertex="1">
-          <mxGeometry height="17" width="120" as="geometry">
-            <mxRectangle height="17" width="120" as="alternateBounds" />
+          <mxGeometry height="17" width="130" as="geometry">
+            <mxRectangle height="17" width="130" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="n1Sj-HwkjqAA0kC4zKMR-27" parent="1" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;strokeColor=#4B4B4B;" value="" vertex="1">
@@ -1902,7 +1902,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="n1Sj-HwkjqAA0kC4zKMR-85" connectable="0" parent="n1Sj-HwkjqAA0kC4zKMR-83" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;textDirection=vertical-lr;fontStyle=1;labelBackgroundColor=none;" value="决策主循环" vertex="1">
+        <mxCell id="n1Sj-HwkjqAA0kC4zKMR-85" connectable="0" parent="n1Sj-HwkjqAA0kC4zKMR-83" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;labelBackgroundColor=none;" value="决&lt;div&gt;策&lt;/div&gt;&lt;div&gt;主&lt;/div&gt;&lt;div&gt;循&lt;/div&gt;&lt;div&gt;环&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.3451" y="1" as="geometry">
             <mxPoint x="-19" y="-11" as="offset" />
           </mxGeometry>
