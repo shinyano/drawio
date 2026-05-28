@@ -2247,7 +2247,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mO5IHieDU8rwlRknNatS" name="udf-decorator-data-flow">
-    <mxGraphModel dx="797" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="986" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2385,7 +2385,7 @@
         <mxCell id="i96CSzU_v_Gcgq2m3fdg-9" edge="1" parent="1" source="i96CSzU_v_Gcgq2m3fdg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;fillColor=#647687;strokeColor=none;endWidth=11.73076923076923;endSize=6.4788461538461535;" target="i96CSzU_v_Gcgq2m3fdg-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i96CSzU_v_Gcgq2m3fdg-10" connectable="0" parent="i96CSzU_v_Gcgq2m3fdg-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="pandas.Dataframe" vertex="1">
+        <mxCell id="i96CSzU_v_Gcgq2m3fdg-10" connectable="0" parent="i96CSzU_v_Gcgq2m3fdg-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="pandas.DataFrame" vertex="1">
           <mxGeometry relative="1" x="-0.196" y="-2" as="geometry">
             <mxPoint x="18" y="-17" as="offset" />
           </mxGeometry>
@@ -2417,7 +2417,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="i96CSzU_v_Gcgq2m3fdg-17" connectable="0" parent="i96CSzU_v_Gcgq2m3fdg-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;span style=&quot;&quot;&gt;pandas.Dataframe&lt;/span&gt;" vertex="1">
+        <mxCell id="i96CSzU_v_Gcgq2m3fdg-17" connectable="0" parent="i96CSzU_v_Gcgq2m3fdg-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;span style=&quot;&quot;&gt;pandas.&lt;/span&gt;DataFrame" vertex="1">
           <mxGeometry relative="1" x="-0.7005" y="5" as="geometry">
             <mxPoint x="-15" y="21" as="offset" />
           </mxGeometry>
