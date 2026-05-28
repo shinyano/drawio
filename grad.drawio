@@ -429,7 +429,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WFk8tpvzRCZwYxpvv-VY" name="arrow-java-python">
-    <mxGraphModel dx="718" dy="375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1237" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -522,6 +522,98 @@
             <Array as="points">
               <mxPoint x="530" y="290" />
               <mxPoint x="530" y="348" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mHIkRT4-bfNaeddO4yqT-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="290" width="550" x="139" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="mHIkRT4-bfNaeddO4yqT-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=light-dark(#F1E4F8,#F1E4F8);opacity=50;arcSize=5;" value="" vertex="1">
+          <mxGeometry height="200" width="370" x="309" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="mHIkRT4-bfNaeddO4yqT-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=light-dark(#DAE8FC,#1D293B);opacity=50;arcSize=5;" value="" vertex="1">
+          <mxGeometry height="210" width="370" x="149" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="mHIkRT4-bfNaeddO4yqT-4" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=default;swimlaneFillColor=none;fillStyle=auto;gradientColor=none;swimlaneLine=1;rounded=1;startSize=20;" value="Java - VectorSchemaRoot" vertex="1">
+          <mxGeometry height="210" width="370" x="149" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="mHIkRT4-bfNaeddO4yqT-5" parent="mHIkRT4-bfNaeddO4yqT-4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#6c8ebf;" value="Java arrow API" vertex="1">
+          <mxGeometry height="20" width="350" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mHIkRT4-bfNaeddO4yqT-6" parent="mHIkRT4-bfNaeddO4yqT-4" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="VectorSchemaRoot" vertex="1">
+          <mxGeometry height="40" width="120" x="20" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mHIkRT4-bfNaeddO4yqT-7" edge="1" parent="mHIkRT4-bfNaeddO4yqT-4" source="mHIkRT4-bfNaeddO4yqT-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;curved=0;" target="mHIkRT4-bfNaeddO4yqT-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mHIkRT4-bfNaeddO4yqT-8" parent="mHIkRT4-bfNaeddO4yqT-4" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="List&amp;lt;FieldVector&amp;gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="20" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="mHIkRT4-bfNaeddO4yqT-9" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=default;swimlaneFillColor=none;textDirection=ltr;rotation=0;verticalAlign=middle;flipH=0;legacyAnchorPoints=0;flipV=1;rounded=1;opacity=70;startSize=20;strokeWidth=1;" value="Python - RecordBatch" vertex="1">
+          <mxGeometry height="210" width="370" x="309" y="600" as="geometry">
+            <mxRectangle height="30" width="170" x="310" y="240" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mHIkRT4-bfNaeddO4yqT-10" parent="mHIkRT4-bfNaeddO4yqT-9" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="RecordBatch" vertex="1">
+          <mxGeometry height="40" width="120" x="230" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mHIkRT4-bfNaeddO4yqT-11" parent="mHIkRT4-bfNaeddO4yqT-9" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="list[pyarrow.Array]" vertex="1">
+          <mxGeometry height="40" width="120" x="230" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mHIkRT4-bfNaeddO4yqT-12" edge="1" parent="mHIkRT4-bfNaeddO4yqT-9" source="mHIkRT4-bfNaeddO4yqT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#9673a6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" target="mHIkRT4-bfNaeddO4yqT-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mHIkRT4-bfNaeddO4yqT-13" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=default;gradientColor=none;rounded=1;labelBackgroundColor=none;fillStyle=auto;swimlaneFillColor=default;fontSize=11;" value="&lt;span&gt;Arrow Buffer(共享缓冲区)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="130" width="190" x="319" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="mHIkRT4-bfNaeddO4yqT-14" parent="mHIkRT4-bfNaeddO4yqT-13" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;textShadow=0;fontSize=12;fontStyle=1;fillColor=#d5e8d4;strokeColor=none;dashed=1;" value="" vertex="1">
+          <mxGeometry height="90" width="160" x="15" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mHIkRT4-bfNaeddO4yqT-15" edge="1" parent="mHIkRT4-bfNaeddO4yqT-13" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="175" y="60" as="sourcePoint" />
+            <mxPoint x="15" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mHIkRT4-bfNaeddO4yqT-16" edge="1" parent="mHIkRT4-bfNaeddO4yqT-13" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="175" y="90" as="sourcePoint" />
+            <mxPoint x="15" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mHIkRT4-bfNaeddO4yqT-17" parent="mHIkRT4-bfNaeddO4yqT-13" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=10;" value="数据缓冲区" vertex="1">
+          <mxGeometry height="30" width="140" x="25" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mHIkRT4-bfNaeddO4yqT-18" parent="mHIkRT4-bfNaeddO4yqT-13" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=10;" value="有效位图" vertex="1">
+          <mxGeometry height="30" width="140" x="25" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mHIkRT4-bfNaeddO4yqT-19" parent="mHIkRT4-bfNaeddO4yqT-13" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=10;" value="偏移量（可选）" vertex="1">
+          <mxGeometry height="30" width="140" x="25" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mHIkRT4-bfNaeddO4yqT-20" edge="1" parent="1" source="mHIkRT4-bfNaeddO4yqT-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#9673a6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;curved=0;" target="mHIkRT4-bfNaeddO4yqT-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mHIkRT4-bfNaeddO4yqT-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#9673a6;" value="Python arrow API" vertex="1">
+          <mxGeometry height="20" width="350" x="319" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="mHIkRT4-bfNaeddO4yqT-22" edge="1" parent="1" source="mHIkRT4-bfNaeddO4yqT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="229" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mHIkRT4-bfNaeddO4yqT-23" edge="1" parent="1" source="mHIkRT4-bfNaeddO4yqT-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="mHIkRT4-bfNaeddO4yqT-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="299" y="700" />
+              <mxPoint x="299" y="642" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mHIkRT4-bfNaeddO4yqT-24" edge="1" parent="1" source="mHIkRT4-bfNaeddO4yqT-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" target="mHIkRT4-bfNaeddO4yqT-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="529" y="650" />
+              <mxPoint x="529" y="708" />
             </Array>
           </mxGeometry>
         </mxCell>
