@@ -898,7 +898,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cDHW2CS2ZY5cfqIIIi8T" name="transfer-owner">
-    <mxGraphModel dx="707" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="540" dy="343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1321,7 +1321,7 @@
             <mxPoint x="1054.3" y="605.56" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OVYa3LAYCJpwbfU9PfcI-53" connectable="0" parent="OVYa3LAYCJpwbfU9PfcI-52" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#D79B00;fontStyle=1" value="① 将 release() 注册至 PyCapsule&lt;div&gt;④ 销毁 pa.BatchRecord&lt;/div&gt;" vertex="1">
+        <mxCell id="OVYa3LAYCJpwbfU9PfcI-53" connectable="0" parent="OVYa3LAYCJpwbfU9PfcI-52" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#D79B00;fontStyle=1" value="① 将 release() 注册至 PyCapsule&lt;div&gt;④ 销毁 pa.RecordBatch&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.6087" as="geometry">
             <mxPoint x="-153" y="19" as="offset" />
           </mxGeometry>
@@ -2445,7 +2445,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="euafM15fInyzPXIByqfF" name="udf-dispatcher-flow">
-    <mxGraphModel dx="1408" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="1" shadow="0">
+    <mxGraphModel dx="945" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
