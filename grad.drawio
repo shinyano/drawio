@@ -1857,16 +1857,16 @@
         <mxCell id="lv7yHn0xpLrk0G7CExok-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;align=center;verticalAlign=bottom;arcSize=15;fontFamily=Helvetica;fontSize=14;fontColor=default;fontStyle=1;fillColor=none;horizontal=1;dashed=1;spacing=6;" value="其他算子" vertex="1">
           <mxGeometry height="250" width="100" x="990" y="920" as="geometry" />
         </mxCell>
-        <mxCell id="lv7yHn0xpLrk0G7CExok-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;align=center;verticalAlign=middle;arcSize=15;fontFamily=Helvetica;fontSize=14;fontColor=default;fontStyle=0;fillColor=#eeeeee;horizontal=1;" value="过滤算子" vertex="1">
+        <mxCell id="lv7yHn0xpLrk0G7CExok-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;align=center;verticalAlign=middle;arcSize=15;fontFamily=Helvetica;fontSize=14;fontColor=default;fontStyle=0;fillColor=#eeeeee;horizontal=1;" value="Filter" vertex="1">
           <mxGeometry height="30" width="70" x="1005" y="938.75" as="geometry" />
         </mxCell>
-        <mxCell id="lv7yHn0xpLrk0G7CExok-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;align=center;verticalAlign=middle;arcSize=15;fontFamily=Helvetica;fontSize=14;fontColor=default;fontStyle=0;fillColor=#eeeeee;horizontal=1;" value="投影算子" vertex="1">
+        <mxCell id="lv7yHn0xpLrk0G7CExok-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;align=center;verticalAlign=middle;arcSize=15;fontFamily=Helvetica;fontSize=14;fontColor=default;fontStyle=0;fillColor=#eeeeee;horizontal=0;textDirection=vertical-rl;" value="project" vertex="1">
           <mxGeometry height="30" width="70" x="1005" y="981.25" as="geometry" />
         </mxCell>
-        <mxCell id="lv7yHn0xpLrk0G7CExok-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;align=center;verticalAlign=middle;arcSize=15;fontFamily=Helvetica;fontSize=14;fontColor=default;fontStyle=0;fillColor=#eeeeee;horizontal=1;" value="Java&lt;div&gt;UDF&lt;/div&gt;" vertex="1">
+        <mxCell id="lv7yHn0xpLrk0G7CExok-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;align=center;verticalAlign=middle;arcSize=15;fontFamily=Helvetica;fontSize=14;fontColor=default;fontStyle=0;fillColor=#eeeeee;horizontal=0;textDirection=vertical-rl;" value="Java&lt;div&gt;UDF&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="70" x="1005" y="1061.25" as="geometry" />
         </mxCell>
-        <mxCell id="lv7yHn0xpLrk0G7CExok-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;align=center;verticalAlign=middle;arcSize=15;fontFamily=Helvetica;fontSize=14;fontColor=default;fontStyle=0;fillColor=#eeeeee;horizontal=1;" value="连接算子" vertex="1">
+        <mxCell id="lv7yHn0xpLrk0G7CExok-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;align=center;verticalAlign=middle;arcSize=15;fontFamily=Helvetica;fontSize=14;fontColor=default;fontStyle=0;fillColor=#eeeeee;horizontal=0;textDirection=vertical-rl;" value="join" vertex="1">
           <mxGeometry height="30" width="70" x="1005" y="1021.25" as="geometry" />
         </mxCell>
         <mxCell id="lv7yHn0xpLrk0G7CExok-41" edge="1" parent="1" source="lv7yHn0xpLrk0G7CExok-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" target="lv7yHn0xpLrk0G7CExok-36">
